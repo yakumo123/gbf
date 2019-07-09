@@ -155,6 +155,27 @@ function BotHelpYy() {
 							"uri": "https://gbf-wiki.com/index.php?%C9%AC%CD%D7EXP%C9%BD"
 						}
 					]
+				},
+{
+					"title": "其他",
+					"text": "其他",
+					"actions": [
+						{
+							"type": "uri",
+							"label": "技能基礎值計算",
+							"uri": "https://gbf-wiki.com/index.php?%A5%B9%A5%AD%A5%EB%B8%FA%B2%CC"
+						},
+						{
+							"type": "postback",
+							"label": "NA",
+							"data": "A"
+						},
+						{
+							"type": "postback",
+							"label": "NA",
+							"data": "A"
+						}
+					]
 				}
 			]
 		}
