@@ -16,7 +16,7 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "GBF情報",
-							"text": "GBF☆情報"
+							"text": "gbf☆情報"
 						},
 						{
 							"type": "uri",
