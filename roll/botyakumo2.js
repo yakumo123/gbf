@@ -27,7 +27,7 @@ function BotHelpYy() {
 							"type": "uri",
 							"label": "英雄武器",
 							"uri": "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/38000"
-						}				
+						}
 					]
 				},
 				{
@@ -48,7 +48,7 @@ function BotHelpYy() {
 							"type": "uri",
 							"label": "Side Story武器碎片及屬晶資源",
 							"uri": "https://home.gamer.com.tw/creationDetail.php?sn=4258259"
-						}				
+						}
 					]
 				},
 				{
@@ -69,7 +69,7 @@ function BotHelpYy() {
 							"type": "uri",
 							"label": "英雄武器",
 							"uri": "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/38000"
-						}				
+						}
 					]
 				},
 				{
@@ -90,7 +90,7 @@ function BotHelpYy() {
 							"type": "uri",
 							"label": "Side Story 召喚石及武器的評價",
 							"uri": "https://www.ptt.cc/man/GBF/DC71/DC36/M.1529890956.A.0FD.html"
-						}				
+						}
 					]
 				},
 				{
@@ -111,7 +111,7 @@ function BotHelpYy() {
 							"type": "uri",
 							"label": "召喚石評價",
 							"uri": "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/21495"
-						}				
+						}
 					]
 				},
 				{
@@ -132,10 +132,10 @@ function BotHelpYy() {
 							"type": "uri",
 							"label": "Rank經驗對應表",
 							"uri": "https://gbf-wiki.com/index.php?%C9%AC%CD%D7EXP%C9%BD"
-						}				
+						}
 					]
 				}
-			]				
+			]
 		}
 	};
 	return rply;
