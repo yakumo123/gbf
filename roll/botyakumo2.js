@@ -18,7 +18,7 @@ function BotHelpYy() {
 					"actions": [
 						{
 							"type": "uri",
-							"label": "【找路人場用的】",
+							"label": "RaidFinder【找路人場】",
 							"uri": "http://gbfraider.herokuapp.com/"
 						},
 						{
