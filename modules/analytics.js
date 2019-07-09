@@ -50,7 +50,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^gbf情報$/)!= null ) return exports.botyakumo2.BotHelpYy();
 	
-	if (trigger.match(/^式神幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
+	if (trigger.match(/^兔兔幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
 	
 
 	//nc指令開始於此 來自Rainsting/TarotLineBot 
