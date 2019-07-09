@@ -50,8 +50,6 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^gbf情報$/)!= null ) return exports.botyakumo2.BotHelpYy();
 	
-	if (trigger.match(/^式神幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
-	
 	//nc指令開始於此 來自Rainsting/TarotLineBot 
 	if (trigger.match(/^[1-4]n[c|a][+|-][1-99]$|^[1-4]n[c|a]$/)!= null ) return exports.nc.nechronica(trigger,mainMsg[1]);
 
