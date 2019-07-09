@@ -20,13 +20,13 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
+							"label": "NA",
+							"text": "NA"
 						},
 						{
 							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
+							"label": "NA",
+							"text": "NA"
 						}
 					]
 				},
