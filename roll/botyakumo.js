@@ -72,7 +72,6 @@ function BotHelpYy() {
 							"label": "塔羅占卜",
 							"text": "單張塔羅/大十字塔羅/每日塔羅牌/時間tarot 單張,大十字,每日及時間必須放頭"
 						}
-
 					]
 				},
 				{
@@ -95,8 +94,6 @@ function BotHelpYy() {
 							"label": "綜合分數生成",
 							"text": "式神的綜合分數 \n使用方法為 XXX的綜合分數"
 						},
-						
-
 					]
 				},
 				{
@@ -118,7 +115,6 @@ function BotHelpYy() {
 							"label": "黑歷史隨機生產",
 							"text": "萌式神的黑歷史 \n使用方法為 XXX的黑歷史"
 						}
-
 					]
 				},
 				{
@@ -140,7 +136,6 @@ function BotHelpYy() {
 							"label": "【新】立Flag功能",
 							"text": "flag \n使用方法為XXXflag"
 						}				
-
 					]
 				}
 			]
