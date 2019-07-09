@@ -103,28 +103,6 @@ function BotHelpYy() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "能力值生成(可不加歲數)",
-							"text": "式神的能力值 18歲 \n使用方法為 XXX的能力值 你希望的歲數"
-						},
-						{
-							"type": "message",
-							"label": "綜合分數生成",
-							"text": "式神的綜合分數 \n使用方法為 XXX的綜合分數"
-						},
-						{
-							"type": "message",
-							"label": "黑歷史隨機生產",
-							"text": "萌式神的黑歷史 \n使用方法為 XXX的黑歷史"
-						}
-
-					]
-				},
-				{
-					"title": "《隨機建議生成》",
-					"text": "隨機生成",
-					"actions": [
-						{
-							"type": "message",
 							"label": "吃甚麼",
 							"text": "式神晚餐吃甚麼 \n使用方法為 XXX吃甚麼"
 						},
@@ -135,8 +113,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "生成卡片",
-							"text": "生成卡片 八雲 \n教學：生成卡片 名字"
+							"label": "黑歷史隨機生產",
+							"text": "萌式神的黑歷史 \n使用方法為 XXX的黑歷史"
 						}
 
 					]
@@ -152,27 +130,6 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "撲克",
-							"text": "撲克1-14/撲克大老二\n\n用法自行發掘，最高抽撲克功能只支援到14張。\n\n【例子1】撲克12\n\n【例子2】撲克大老二"
-						},
-						{
-							"type": "message",
-							"label": "偽式神幫助【毀其他人形象用】",
-							"text": "式神幫忙"
-						}
-					]
-				},
-				{
-					"title": "其他功能",
-					"text": "其他",
-					"actions": [
-						{
-							"type": "postback",
-							"label": "暫無",
-							"data": "暫無"
-						},
-						{
-							"type": "message",
 							"label": "機率提供",
 							"text": "八雲運氣變好的機率 ■XXX+的機率"
 						},
@@ -181,28 +138,6 @@ function BotHelpYy() {
 							"label": "【新】立Flag功能",
 							"text": "flag \n使用方法為XXXflag"
 						}				
-					]
-				},
-				{
-					"title": "《其他功能》",
-					"text": "其他功能",
-					"actions": [
-						{
-							"type": "postback",
-							"label": "暫無",
-							"data": "暫無"
-						},
-						{
-							"type": "postback",
-							"label": "暫無",
-							"data": "暫無"
-						},
-						{
-							"type": "postback",
-							"label": "暫無",
-							"data": "暫無"
-						}
-
 					]
 				}
 			]
