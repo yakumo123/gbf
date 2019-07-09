@@ -15,22 +15,21 @@ function BotHelpYy() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "GBF情報",
+							"label": "GBF情報-手機版",
 							"text": "gbf情報"
 						},
 						{
 							"type": "message",
-							"label": "幸運顏色",
-							"text": "幸運顏色"
+							"label": "GBF情報-電腦版",
+							"text": "gbf情報電腦"
 						},
 						{
-							"type": "message",
-							"label": "機率提供",
-							"text": "八雲運氣變好的機率 ■XXX+的機率"
+							"type": "postback",
+							"label": "NA",
+							"data": "NA"
 						}
 					]
 				},
-
 				{
 					"title": "《其他功能》",
 					"text": "《其他功能》",
@@ -118,7 +117,30 @@ function BotHelpYy() {
 						}
 
 					]
+				},
+				{
+					"title": "《其他功能》",
+					"text": "《其他功能》",
+					"actions": [
+						{
+							"type": "message",
+							"label": "幸運顏色",
+							"text": "幸運顏色"
+						},
+						{
+							"type": "message",
+							"label": "機率提供",
+							"text": "八雲運氣變好的機率 ■XXX+的機率"
+						},
+						{
+							"type": "postback",
+							"label": "NA",
+							"data": "NA"
+						}
+
+					]
 				}
+				
 			]
 		}
 	};
