@@ -72,7 +72,7 @@ function BotHelpYy() {
 						}				
 					]
 				},
-								{
+				{
 					"title": "素材收集",
 					"text": "素材收集",
 					"actions": [
@@ -134,7 +134,7 @@ function BotHelpYy() {
 							"uri": "https://gbf-wiki.com/index.php?%C9%AC%CD%D7EXP%C9%BD"
 						}				
 					]
-				},
+				}
 			]				
 		}
 	};
