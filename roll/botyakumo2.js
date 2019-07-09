@@ -134,27 +134,6 @@ function BotHelpYy() {
 							"uri": "https://gbf-wiki.com/index.php?%C9%AC%CD%D7EXP%C9%BD"
 						}
 					]
-				},
-								{
-					"title": "其他",
-					"text": "其他",
-					"actions": [
-						{
-							"type": "uri",
-							"label": "Grandblue Raid Finder【找路人場用的】",
-							"uri": "http://gbfraider.herokuapp.com/"
-						},
-						{
-							"type": "uri",
-							"label": "其他GBF資訊",
-							"uri": "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/"
-						}
-						{
-							"type": "uri",
-							"label": "GBF",
-							"uri": "https://www.andapp.jp/apps/12016007?from=www_mbga_intro"
-						}
-					]
 				}
 			]
 		}
