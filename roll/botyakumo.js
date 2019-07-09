@@ -18,15 +18,15 @@ function BotHelpYy() {
 							"label": "GBF情報",
 							"text": "gbf情報"
 						},
-						{
-							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
+												{
+							"type": "uri",
+							"label": "Grandblue Raid Finder【找路人場用的】",
+							"uri": "http://gbfraider.herokuapp.com/"
 						},
 						{
-							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
+							"type": "uri",
+							"label": "其他GBF資訊",
+							"uri": "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/"
 						}
 					]
 				},
