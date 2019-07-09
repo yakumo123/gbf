@@ -8,10 +8,7 @@ function BotHelpYy() {
 		"altText": "【GBF情報】",
 		"template": {
 			"type": "carousel",
-			"columns": [
-				
-				
-				
+			"columns": [	
 				{
 					"title": "其他",
 					"text": "其他",
