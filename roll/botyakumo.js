@@ -14,9 +14,9 @@ function BotHelpYy() {
 					"text": "情～報～專～區～☆拉到右邊還有更多內容☆",
 					"actions": [
 						{
-							"type": "message",
+							"type": "uri",
 							"label": "GBF情報",
-							"text": "gbf☆情報"
+							"uri": "GBF情報"
 						},
 						{
 							"type": "uri",
@@ -72,6 +72,7 @@ function BotHelpYy() {
 							"label": "塔羅占卜",
 							"text": "單張塔羅/大十字塔羅/每日塔羅牌/時間tarot 單張,大十字,每日及時間必須放頭"
 						}
+
 					]
 				},
 				{
@@ -84,7 +85,6 @@ function BotHelpYy() {
 							"text": "求八雲式神運勢 \n使用方法為 XXX運勢"
 						},
 						{
-												{
 							"type": "message",
 							"label": "能力值生成(可不加歲數)",
 							"text": "式神的能力值 18歲 \n使用方法為 XXX的能力值 你希望的歲數"
@@ -93,12 +93,13 @@ function BotHelpYy() {
 							"type": "message",
 							"label": "綜合分數生成",
 							"text": "式神的綜合分數 \n使用方法為 XXX的綜合分數"
-						},
+						}
+
 					]
 				},
 				{
 					"title": "《其他功能》",
-					"text": "《其他功能》",
+					"text": 《其他功能》",
 					"actions": [
 						{
 							"type": "message",
@@ -115,6 +116,7 @@ function BotHelpYy() {
 							"label": "黑歷史隨機生產",
 							"text": "萌式神的黑歷史 \n使用方法為 XXX的黑歷史"
 						}
+
 					]
 				},
 				{
