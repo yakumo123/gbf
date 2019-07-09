@@ -14,9 +14,9 @@ function BotHelpYy() {
 					"text": "情～報～專～區～☆拉到右邊還有更多內容☆",
 					"actions": [
 						{
-							"type": "uri",
+							"type": "message",
 							"label": "GBF情報",
-							"uri": "GBF情報"
+							"text": "gbf情報"
 						},
 						{
 							"type": "uri",
