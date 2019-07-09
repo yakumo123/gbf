@@ -148,7 +148,7 @@ function BotHelpYy() {
 							"type": "uri",
 							"label": "其他GBF資訊",
 							"uri": "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/"
-						}
+						},
 						{
 							"type": "uri",
 							"label": "GBF",
