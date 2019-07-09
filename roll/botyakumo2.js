@@ -9,6 +9,30 @@ function BotHelpYy() {
 		"template": {
 			"type": "carousel",
 			"columns": [
+				
+				
+				
+				{
+					"title": "其他",
+					"text": "其他",
+					"actions": [
+						{
+							"type": "uri",
+							"label": "【找路人場用的】",
+							"uri": "http://gbfraider.herokuapp.com/"
+						},
+						{
+							"type": "uri",
+							"label": "其他GBF資訊",
+							"uri": "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/"
+						},
+						{
+							"type": "uri",
+							"label": "GBF中文維基",
+							"uri": "https://gbf.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5"
+						}
+					]
+				},
 				{
 					"title": "素材收集",
 					"text": "素材收集",
