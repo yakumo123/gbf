@@ -18,7 +18,23 @@ function BotHelpYy() {
 							"label": "GBF情報",
 							"text": "gbf情報"
 						},
-												{
+						{
+							"type": "message",
+							"label": "幸運顏色",
+							"text": "幸運顏色"
+						},
+						{
+							"type": "message",
+							"label": "機率提供",
+							"text": "八雲運氣變好的機率 ■XXX+的機率"
+						}
+					]
+				},
+				{
+					"title": "其他",
+					"text": "其他",
+					"actions": [
+						{
 							"type": "uri",
 							"label": "Grandblue Raid Finder【找路人場用的】",
 							"uri": "http://gbfraider.herokuapp.com/"
@@ -27,7 +43,13 @@ function BotHelpYy() {
 							"type": "uri",
 							"label": "其他GBF資訊",
 							"uri": "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/"
+						},
+						{
+							"type": "uri",
+							"label": "GBF中文維基",
+							"uri": "https://gbf.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5"
 						}
+										
 					]
 				},
 				{
@@ -116,27 +138,6 @@ function BotHelpYy() {
 							"text": "萌式神的黑歷史 \n使用方法為 XXX的黑歷史"
 						}
 
-					]
-				},
-				{
-					"title": "其他",
-					"text": "其他",
-					"actions": [
-						{
-							"type": "message",
-							"label": "幸運顏色",
-							"text": "幸運顏色"
-						},
-						{
-							"type": "message",
-							"label": "機率提供",
-							"text": "八雲運氣變好的機率 ■XXX+的機率"
-						},
-						{
-							"type": "message",
-							"label": "【新】立Flag功能",
-							"text": "flag \n使用方法為XXXflag"
-						}				
 					]
 				}
 			]
