@@ -26,7 +26,7 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "GBF活動及古戰場戰貨計算器",
-							"data": "gbf箱掘るぞ"
+							"data": "gbf箱掘"
 						}
 					]
 				},
