@@ -41,15 +41,14 @@ function BotHelpYy() {
 						},
 						{
 							"type": "uri",
-							"label": "天司武器",
-							"uri": "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/52819#final"
+							"label": "製作十天眾素材及收集方法【中文】",
+							"uri": "https://bbs.nga.cn/read.php?tid=11531638&rand=293"
 						},
 						{
 							"type": "uri",
-							"label": "英雄武器",
-							"uri": "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/38000"
-						}
-					]
+							"label": "天司武器",
+							"uri": "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/52819#final"
+						}					]
 				},
 				{
 					"title": "素材收集",
