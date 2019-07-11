@@ -25,8 +25,29 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "GBF活動及古戰場戰貨計算器",
-							"data": "gbf箱掘"
+							"label": "GBF活動及古戰場戰貨計算器-手機",
+							"text": "gbf箱掘"
+						}
+					]
+				},
+								{
+					"title": "情報專區☆按鈕點一下就可以，一直點會洗頻的。",
+					"text": "情～報～專～區～☆拉到右邊還有更多內容☆",
+					"actions": [
+						{
+							"type": "message",
+							"label": "GBF活動及古戰場戰貨計算器-電腦",
+							"text": "gbf箱掘電腦"
+						},
+						{
+							"type": "postback",
+							"label": "NA",
+							"data": "NA"
+						},
+						{
+							"type": "postback",
+							"label": "NA",
+							"data": "NA"
 						}
 					]
 				},
