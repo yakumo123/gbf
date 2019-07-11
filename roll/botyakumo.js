@@ -24,9 +24,9 @@ function BotHelpYy() {
 							"text": "gbf情報電腦"
 						},
 						{
-							"type": "postback",
-							"label": "NA",
-							"data": "NA"
+							"type": "message",
+							"label": "GBF活動及古戰場戰貨計算器",
+							"data": "gbf箱掘るぞ"
 						}
 					]
 				},
