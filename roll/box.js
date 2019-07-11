@@ -9,7 +9,7 @@ function gbfbox() {
           {
             "type": "uri",
             "label": "活動戰貨",
-            "uri": "https://docs.google.com/spreadsheets/d/1FvdXZYkymzfGPG1gTecwDmirj2eFODOX4HKoWIIKlU4/edit?usp=drivesdk"
+            "uri": "https://docs.google.com/spreadsheets/d/1t6SV5QYjfU0LOjr8omTnjqkuezZWstbNXHHHX9IgNsE/edit?usp=drivesdk"
           },
           {
             "type": "uri",
