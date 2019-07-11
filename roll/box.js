@@ -4,7 +4,7 @@ function gbfbox() {
   "altText": "戰貨計算器",
   "template": {
       "type": "confirm",
-      "text": "所需戰貨器【請複製副本後使用】",
+      "text": "戰貨計算器【請複製副本後使用】",
       "actions": [
           {
             "type": "uri",
