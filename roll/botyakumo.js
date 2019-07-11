@@ -25,7 +25,7 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "GBF活動及古戰場戰貨計算器-手機",
+							"label": "GBF戰貨計算器-手機",
 							"text": "gbf箱掘"
 						}
 					]
@@ -36,7 +36,7 @@ function BotHelpYy() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "GBF活動及古戰場戰貨計算器-電腦",
+							"label": "GBF戰貨計算器-電腦",
 							"text": "gbf箱掘電腦"
 						},
 						{
