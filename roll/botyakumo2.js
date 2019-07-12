@@ -165,9 +165,9 @@ function BotHelpYy() {
 							"uri": "https://gbf-wiki.com/index.php?%A5%B9%A5%AD%A5%EB%B8%FA%B2%CC"
 						},
 						{
-							"type": "postback",
-							"label": "NA",
-							"data": "A"
+							"type": "uri",
+							"label": "轉世詳細介紹",
+							"uri": "https://m.gamer.com.tw/forum/Co.php?bsn=25204&snB=41185"
 						},
 						{
 							"type": "postback",
