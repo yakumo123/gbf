@@ -35,6 +35,9 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/(^ccrt$)/) != null) return exports.coc.ccrt();
 	if (trigger.match(/(^ccsu$)/) != null) return exports.coc.ccsu();
 
+
+	
+	if (trigger.match(/^小車車$/)!= null ) return exports.image.imsnow();
 	
 	if (trigger.match(/(的能力值$)/) != null && mainMsg[1] != NaN )	return exports.character.build7char(mainMsg[1]);
 	
