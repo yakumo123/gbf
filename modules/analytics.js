@@ -93,6 +93,9 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/(運勢$)/) != null) return exports.funny.randomLuck(mainMsg) ; 
 	
+	if (trigger.match(/(要打多少$|要打多少肉$)/) != null) return exports.funny.meat(mainMsg) ; 
+	
+	
 	if (trigger.match(/(的機率$)/) != null) return exports.funny.randomChance(mainMsg) ; 
 	
 	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS(mainMsg) ;	
