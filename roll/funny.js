@@ -4,9 +4,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 function meat(TEXT) {
 let FirArr = [1,2,3,4,5,6,7,8,9]
 let SecArr = [500,0500,0000,1000,2000,3000,4000,5000,6000,7000,8000,9000,00000]
-let star = FirArr[Math.floor((Math.random() * (FirArr.length)) + 0)] + SecArr[Math.floor((Math.random() * (SecArr.length)) + 0)];
-rply.text = TEXT[0] + ' ： ' + star ;
-
+rply.text = TEXT[0] + ' ： ' + FirArr[Math.floor((Math.random() * (FirArr.length)) + 0)] + SecArr[Math.floor((Math.random() * (SecArr.length)) + 0)]; ; 
 return rply;
 }
 
