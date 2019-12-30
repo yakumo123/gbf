@@ -1,6 +1,54 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
+function RockPaperScissors(HandToCal, text) {
+	let returnStr = '';
+	if (HandToCal.match(/石頭|布|剪刀|1|2|3/) != null) {
+	let aHand = ['石頭','布','剪刀'];
+	HandToCal = aHand[Math.floor((Math.random() * (aHand.length)) + 0)];
+	}
+	var hand = rollbase.FunnyDice(3); // 0:石頭 1:布 2:剪刀
+
+	switch (hand) {
+	case 0: 
+		returnStr = '我出石頭！\n';
+
+		if (HandToCal.match(/剪刀|1/) != null) returnStr += '哼哼你輸惹';
+		else if (HandToCal.match(/石頭|2/) != null) returnStr += '看來我們不相上下阿';
+		else if (HandToCal.match(/布|3/) != null) returnStr += '你好像有點強！';
+		else returnStr += '欸不對喔你亂出！';
+
+		break;
+
+	case 1: 
+		returnStr = '我出布！\n';
+
+		if (HandToCal.match(/剪刀|1/) != null) returnStr += '讓你一次而已啦！';
+		else if (HandToCal.match(/布|2/) != null) returnStr += '原來平手...沒什麼嘛！';
+		else if (HandToCal.match(/石頭|3/) != null) returnStr += '哈哈你看看你！';
+		else returnStr += '別亂出阿會壞掉的';
+
+		break;
+
+	case 2: 
+		returnStr = '我出剪刀！\n';
+
+		if (HandToCal.match(/剪刀|1/) != null) returnStr += '平手 (  艸)';
+		else if (HandToCal.match(/布|2/) != null) returnStr += '贏了 (｀・ω・´)b';
+		else if (HandToCal.match(/石頭|3/) != null) returnStr += '輸惹 ゜。。゜(ノД‵)ノ・゜';
+		else returnStr += '亂出打你喔 (｀・ω・´)凸';
+
+		break;
+
+	default:
+		returnStr = '我出的是...欸不對你沒出喔！\n';
+		break;
+	}
+
+	rply.text = returnStr;
+	return rply;
+}
+
 function meat(TEXT) {
 let FirArr = [1,2,3,4,5,6,7,8,9]
 let SecArr = [500,0500,0000,1000,2000,3000,4000,5000,6000,7000,8000,9000,00000]
@@ -501,6 +549,7 @@ function tenchoice(input,mainMsg) {
  }
 
 module.exports = {
+	RockPaperScissors,
 	meat,
 	randomColour,
 	randomDrink,
