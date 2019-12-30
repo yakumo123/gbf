@@ -1,7 +1,7 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
-function RockPaperScissors(chack,text,text) {
+function RockPaperScissors(chack,text) {
 	let returnStr = '';
 	var hand = rollbase.FunnyDice(3); // 0:石頭 1:布 2:剪刀
 
