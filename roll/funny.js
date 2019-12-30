@@ -3,9 +3,6 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 
 function RockPaperScissors(chack,text,text) {
 	let returnStr = '';
-	if (chack.match(/石頭|布|剪刀/) != null) {
-	let aHand = ['石頭','布','剪刀'];
-	}
 	var hand = rollbase.FunnyDice(3); // 0:石頭 1:布 2:剪刀
 
 	switch (hand) {
