@@ -3,11 +3,14 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 
 function RockPaperScissors(chack,text) {
 	let returnStr = '';
-	if chack.match(/剪刀/) let number = 1;
+	if chack = '剪刀';
+	let number = 1;
 	else
-	if chack.match(/布/) let number = 2;
+	if chack= '布';
+	let number = 2;
 	else
-	if chack.match(/石頭/) let number = 3;
+	if chack = '石頭';
+	let number = 3;
 	else
 	let number = 99;
 	
