@@ -3,15 +3,31 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 
 function RockPaperScissors(chack,text) {
 	let returnStr = '';
+	if (chack.match(/剪刀/) != null) {
+		let number = 1
+		};
+	
+	else if (chack.match(/布/) != null) {
+		let number = 2
+		};
+	
+	else if (chack.match(/石頭/) != null) {
+		let number = 3
+		};
+	
+	else returnStr = '我出的是...欸不對你沒出喔！\n';
+	
+	break;	
+		
 	var hand = rollbase.FunnyDice(3); // 0:石頭 1:布 2:剪刀
 
 	switch (hand) {
 	case 0: 
 		returnStr = '我出石頭！\n';
 
-		if (chack == '剪刀') returnStr += '哼哼你輸惹';
-		else if (chack == '石頭') != null) returnStr += '看來我們不相上下阿';
-		else if (chack == '布') != null) returnStr += '你好像有點強！';
+		if (number == 1) returnStr += '哼哼你輸惹';
+		else if (number == 3) != null) returnStr += '看來我們不相上下阿';
+		else if (number == 2) != null) returnStr += '你好像有點強！';
 		else returnStr += '欸不對喔你亂出！';
 
 		break;
@@ -19,9 +35,9 @@ function RockPaperScissors(chack,text) {
 	case 1: 
 		returnStr = '我出布！\n';
 
-		if (chack == '剪刀') != null) returnStr += '讓你一次而已啦！';
-		else if (chack == '布') != null) returnStr += '原來平手...沒什麼嘛！';
-		else if (chack == '石頭') != null) returnStr += '哈哈你看看你！';
+		if (number == 1) != null) returnStr += '讓你一次而已啦！';
+		else if (number == 2) != null) returnStr += '原來平手...沒什麼嘛！';
+		else if (number == 3) != null) returnStr += '哈哈你看看你！';
 		else returnStr += '別亂出阿會壞掉的';
 
 		break;
@@ -29,9 +45,9 @@ function RockPaperScissors(chack,text) {
 	case 2: 
 		returnStr = '我出剪刀！\n';
 
-		if (chack == '剪刀') != null) returnStr += '平手 (  艸)';
-		else if (chack == '布') != null) returnStr += '贏了 (｀・ω・´)b';
-		else if (chack == '石頭') != null) returnStr += '輸惹 ゜。。゜(ノД‵)ノ・゜';
+		if (number == 1) != null) returnStr += '平手 (  艸)';
+		else if (number == 2) != null) returnStr += '贏了 (｀・ω・´)b';
+		else if (number == 3) != null) returnStr += '輸惹 ゜。。゜(ノД‵)ノ・゜';
 		else returnStr += '亂出打你喔 (｀・ω・´)凸';
 
 		break;
