@@ -15,8 +15,8 @@ function RockPaperScissors(chack,text) {
 		let number = 3
 		};
 	
-	else returnStr = '我出的是...欸不對你沒出喔！\n';
-		
+	else let number = 99;
+	
 	var hand = rollbase.FunnyDice(3); // 0:石頭 1:布 2:剪刀
 
 	switch (hand) {
