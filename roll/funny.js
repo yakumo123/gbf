@@ -16,8 +16,6 @@ function RockPaperScissors(chack,text) {
 		};
 	
 	else returnStr = '我出的是...欸不對你沒出喔！\n';
-	
-	break;	
 		
 	var hand = rollbase.FunnyDice(3); // 0:石頭 1:布 2:剪刀
 
