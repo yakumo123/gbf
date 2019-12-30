@@ -5,7 +5,6 @@ function RockPaperScissors(input,mainMsg) {
 	let returnStr = '';
 	if (mainMsg[0].match(/石頭|布|剪刀|1|2|3/) != null) {
 	let aHand = ['石頭','布','剪刀'];
-	mainMsg[0] = aHand[Math.floor((Math.random() * (aHand.length)) + 0)];
 	}
 	var hand = rollbase.FunnyDice(3); // 0:石頭 1:布 2:剪刀
 
