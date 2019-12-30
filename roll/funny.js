@@ -1,11 +1,11 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
-function RockPaperScissors(HandToCal, text) {
+function RockPaperScissors(inputStr, text) {
 	let returnStr = '';
-	if (HandToCal.match(/石頭|布|剪刀|1|2|3/) != null) {
+	if (inputStr.match(/石頭|布|剪刀|1|2|3/) != null) {
 	let aHand = ['石頭','布','剪刀'];
-	HandToCal = aHand[Math.floor((Math.random() * (aHand.length)) + 0)];
+	inputStr = aHand[Math.floor((Math.random() * (aHand.length)) + 0)];
 	}
 	var hand = rollbase.FunnyDice(3); // 0:石頭 1:布 2:剪刀
 
@@ -13,9 +13,9 @@ function RockPaperScissors(HandToCal, text) {
 	case 0: 
 		returnStr = '我出石頭！\n';
 
-		if (HandToCal.match(/剪刀|1/) != null) returnStr += '哼哼你輸惹';
-		else if (HandToCal.match(/石頭|2/) != null) returnStr += '看來我們不相上下阿';
-		else if (HandToCal.match(/布|3/) != null) returnStr += '你好像有點強！';
+		if (inputStr.match(/剪刀|1/) != null) returnStr += '哼哼你輸惹';
+		else if (inputStr.match(/石頭|2/) != null) returnStr += '看來我們不相上下阿';
+		else if (inputStr.match(/布|3/) != null) returnStr += '你好像有點強！';
 		else returnStr += '欸不對喔你亂出！';
 
 		break;
@@ -23,9 +23,9 @@ function RockPaperScissors(HandToCal, text) {
 	case 1: 
 		returnStr = '我出布！\n';
 
-		if (HandToCal.match(/剪刀|1/) != null) returnStr += '讓你一次而已啦！';
-		else if (HandToCal.match(/布|2/) != null) returnStr += '原來平手...沒什麼嘛！';
-		else if (HandToCal.match(/石頭|3/) != null) returnStr += '哈哈你看看你！';
+		if (inputStr.match(/剪刀|1/) != null) returnStr += '讓你一次而已啦！';
+		else if (inputStr.match(/布|2/) != null) returnStr += '原來平手...沒什麼嘛！';
+		else if (inputStr.match(/石頭|3/) != null) returnStr += '哈哈你看看你！';
 		else returnStr += '別亂出阿會壞掉的';
 
 		break;
@@ -33,9 +33,9 @@ function RockPaperScissors(HandToCal, text) {
 	case 2: 
 		returnStr = '我出剪刀！\n';
 
-		if (HandToCal.match(/剪刀|1/) != null) returnStr += '平手 (  艸)';
-		else if (HandToCal.match(/布|2/) != null) returnStr += '贏了 (｀・ω・´)b';
-		else if (HandToCal.match(/石頭|3/) != null) returnStr += '輸惹 ゜。。゜(ノД‵)ノ・゜';
+		if (inputStr.match(/剪刀|1/) != null) returnStr += '平手 (  艸)';
+		else if (inputStr.match(/布|2/) != null) returnStr += '贏了 (｀・ω・´)b';
+		else if (inputStr.match(/石頭|3/) != null) returnStr += '輸惹 ゜。。゜(ノД‵)ノ・゜';
 		else returnStr += '亂出打你喔 (｀・ω・´)凸';
 
 		break;
