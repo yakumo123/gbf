@@ -1,9 +1,9 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
-function RockPaperScissors(input,mainMsg) {
+function RockPaperScissors(chack,text,text) {
 	let returnStr = '';
-	if (mainMsg[0].match(/石頭|布|剪刀/) != null) {
+	if (chack.match(/石頭|布|剪刀/) != null) {
 	let aHand = ['石頭','布','剪刀'];
 	}
 	var hand = rollbase.FunnyDice(3); // 0:石頭 1:布 2:剪刀
@@ -12,9 +12,9 @@ function RockPaperScissors(input,mainMsg) {
 	case 0: 
 		returnStr = '我出石頭！\n';
 
-		if (mainMsg[0].match(/剪刀/) != null) returnStr += '哼哼你輸惹';
-		else if (mainMsg[0].match(/石頭/) != null) returnStr += '看來我們不相上下阿';
-		else if (mainMsg[0].match(/布/) != null) returnStr += '你好像有點強！';
+		if (chack.match(/剪刀/) != null) returnStr += '哼哼你輸惹';
+		else if (chack.match(/石頭/) != null) returnStr += '看來我們不相上下阿';
+		else if (chack.match(/布/) != null) returnStr += '你好像有點強！';
 		else returnStr += '欸不對喔你亂出！';
 
 		break;
@@ -22,9 +22,9 @@ function RockPaperScissors(input,mainMsg) {
 	case 1: 
 		returnStr = '我出布！\n';
 
-		if (mainMsg[0].match(/剪刀/) != null) returnStr += '讓你一次而已啦！';
-		else if (mainMsg[0].match(/布/) != null) returnStr += '原來平手...沒什麼嘛！';
-		else if (mainMsg[0].match(/石頭/) != null) returnStr += '哈哈你看看你！';
+		if (chack.match(/剪刀/) != null) returnStr += '讓你一次而已啦！';
+		else if (chack.match(/布/) != null) returnStr += '原來平手...沒什麼嘛！';
+		else if (chack.match(/石頭/) != null) returnStr += '哈哈你看看你！';
 		else returnStr += '別亂出阿會壞掉的';
 
 		break;
@@ -32,9 +32,9 @@ function RockPaperScissors(input,mainMsg) {
 	case 2: 
 		returnStr = '我出剪刀！\n';
 
-		if (mainMsg[0].match(/剪刀/) != null) returnStr += '平手 (  艸)';
-		else if (mainMsg[0].match(/布/) != null) returnStr += '贏了 (｀・ω・´)b';
-		else if (mainMsg[0].match(/石頭/) != null) returnStr += '輸惹 ゜。。゜(ノД‵)ノ・゜';
+		if (chack.match(/剪刀/) != null) returnStr += '平手 (  艸)';
+		else if (chack.match(/布/) != null) returnStr += '贏了 (｀・ω・´)b';
+		else if (chack.match(/石頭/) != null) returnStr += '輸惹 ゜。。゜(ノД‵)ノ・゜';
 		else returnStr += '亂出打你喔 (｀・ω・´)凸';
 
 		break;
