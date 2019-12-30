@@ -5,11 +5,9 @@ function RockPaperScissors(chack,text) {
 	let returnStr = '';
 	let handArr = [1,2,3]；
 	let hand = handArr[Math.floor((Math.random() * (handArr.length)) + 0)];
-	
-
-		if (TEXT[1] == 1 && hand == 1) returnStr += '我出石頭！\n哼哼你輸惹';
-		else
-			if (TEXT[1] == 2 && hand == 1) returnStr += '我出石頭！\n看來我們不相上下阿';
+	if (TEXT[1] == 1 && hand == 1) returnStr += '我出石頭！\n哼哼你輸惹';
+	else
+		if (TEXT[1] == 2 && hand == 1) returnStr += '我出石頭！\n看來我們不相上下阿';
 		else
 			if (TEXT[1] == 3 && hand == 1) returnStr += '我出石頭！\n你好像有點強！';
 		else
@@ -27,7 +25,7 @@ function RockPaperScissors(chack,text) {
 		else 
 			if (TEXT[1] == null) returnStr = '我出的是...欸不對你沒出喔！\n';
 		else
-			if (hand == 3) eturnStr += '我出剪刀！\n亂出打你喔 (｀・ω・´)凸';
+			if (hand == 3) returnStr += '我出剪刀！\n亂出打你喔 (｀・ω・´)凸';
 		else
 			if (hand == 1) returnStr += '我出石頭！\n欸不對喔你亂出！';
 		else
