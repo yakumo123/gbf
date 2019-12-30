@@ -6,16 +6,16 @@ function RockPaperScissors(chack,text) {
 	if (chack.match(/剪刀/) != null) {
 		let number = 1
 		};
-	
-	else if (chack.match(/布/) != null) {
+	else
+		if (chack.match(/布/) != null) {
 		let number = 2
 		};
-	
-	else if (chack.match(/石頭/) != null) {
+	else
+		if (chack.match(/石頭/) != null) {
 		let number = 3
 		};
-	
-	else let number = 99;
+	else
+		let number = 99;
 	
 	var hand = rollbase.FunnyDice(3); // 0:石頭 1:布 2:剪刀
 
