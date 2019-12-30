@@ -95,6 +95,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/(要打多少$|要打多少肉$)/) != null) return exports.funny.meat(mainMsg) ; 
 	
+	if (trigger.match(/猜拳/) != null) return exports.funny.RockPaperScissors(inputStr, mainMsg[1]);
+
 	
 	if (trigger.match(/(的機率$)/) != null) return exports.funny.randomChance(mainMsg) ; 
 	
