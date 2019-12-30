@@ -9,9 +9,9 @@ function RockPaperScissors(chack,text) {
 	case 0: 
 		returnStr = '我出石頭！\n';
 
-		if (chack == 1) returnStr += '哼哼你輸惹';
-		else if (chack == 2) returnStr += '看來我們不相上下阿';
-		else if (chack == 3) returnStr += '你好像有點強！';
+		if (TEXT[1] == 1) returnStr += '哼哼你輸惹';
+		else if (TEXT[1] == 2) returnStr += '看來我們不相上下阿';
+		else if (TEXT[1] == 3) returnStr += '你好像有點強！';
 		else returnStr += '欸不對喔你亂出！';
 
 		break;
@@ -19,18 +19,18 @@ function RockPaperScissors(chack,text) {
 	case 1: 
 		returnStr = '我出布！\n';
 
-		if (chack == 1) returnStr += '讓你一次而已啦！';
-		else if (chack == 3) returnStr += '原來平手...沒什麼嘛！';
-		else if (chack == 2) returnStr += '哈哈你看看你！';
+		if (TEXT[1] == 1) returnStr += '讓你一次而已啦！';
+		else if (TEXT[1] == 3) returnStr += '原來平手...沒什麼嘛！';
+		else if (TEXT[1] == 2) returnStr += '哈哈你看看你！';
 		else returnStr += '別亂出阿會壞掉的';
 
 		break;
 
 	case 2: 
 		returnStr = '我出剪刀！\n'; 
-		if (chack == 1) returnStr += '平手 (  艸)';
-		else if (chack == 3) returnStr += '贏了 (｀・ω・´)b';
-		else if (chack == 2) returnStr += '輸惹 ゜。。゜(ノД‵)ノ・゜';
+		if (TEXT[1] == 1) returnStr += '平手 (  艸)';
+		else if (TEXT[1] == 3) returnStr += '贏了 (｀・ω・´)b';
+		else if (TEXT[1] == 2) returnStr += '輸惹 ゜。。゜(ノД‵)ノ・゜';
 		else returnStr += '亂出打你喔 (｀・ω・´)凸';
 
 		break;
